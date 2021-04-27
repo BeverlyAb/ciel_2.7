@@ -1,0 +1,9 @@
+{"start":
+    {"handler": "stdinout",
+     "args":
+        {"args":
+            {"command_line": ["echo", "Hello, world!"]}
+        }
+    },
+ "result": [{"__decode_ref__": "noop"}]
+}

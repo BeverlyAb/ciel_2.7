@@ -1,0 +1,18 @@
+# Defaults for ciel initscript
+# sourced by /etc/init.d/ciel
+# installed at /etc/default/ciel by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+BLOCK_STORE=/var/lib/ciel
+
+MASTER=yes
+MASTER_PORT=8000
+MASTER_URI=http://127.0.0.1:$MASTER_PORT
+
+WORKER=yes
+WORKER_PORT=8001
+WORKER_SLOTS=1

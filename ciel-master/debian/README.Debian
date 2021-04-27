@@ -1,0 +1,6 @@
+CIEL for Debian
+---------------
+
+The default location of the CIEL datastores are in /var/lib/ciel
+
+ -- Anil Madhavapeddy <anil@recoil.org>  Fri, 29 Jul 2011 13:39:04 +0000
